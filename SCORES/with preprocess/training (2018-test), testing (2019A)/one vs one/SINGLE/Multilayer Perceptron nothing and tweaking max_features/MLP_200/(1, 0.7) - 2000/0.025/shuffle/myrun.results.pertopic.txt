@@ -1,0 +1,272 @@
+TREC-IS 2019-A Notebook Evaluator v2.0
+Run: myrun (MLP_200_shuffle.run)
+
+--------------------------------------------------
+EVALUATON: Information Type Categorization (Multi-type)
+Per Information Type Performance
+--------------------------------------------------
+Request-GoodsServices
+                       precision    recall  f1-score   support
+
+        Other Classes       1.00      1.00      1.00      7611
+Request-GoodsServices       0.10      0.17      0.13        23
+
+             accuracy                           0.99      7634
+            macro avg       0.55      0.58      0.56      7634
+         weighted avg       0.99      0.99      0.99      7634
+
+
+Request-SearchAndRescue
+                         precision    recall  f1-score   support
+
+          Other Classes       1.00      1.00      1.00      7624
+Request-SearchAndRescue       0.03      0.10      0.05        10
+
+               accuracy                           0.99      7634
+              macro avg       0.51      0.55      0.52      7634
+           weighted avg       1.00      0.99      1.00      7634
+
+
+Request-InformationWanted
+                           precision    recall  f1-score   support
+
+            Other Classes       0.99      0.99      0.99      7563
+Request-InformationWanted       0.07      0.07      0.07        71
+
+                 accuracy                           0.98      7634
+                macro avg       0.53      0.53      0.53      7634
+             weighted avg       0.98      0.98      0.98      7634
+
+
+CallToAction-Volunteer
+                        precision    recall  f1-score   support
+
+         Other Classes       1.00      1.00      1.00      7610
+CallToAction-Volunteer       0.05      0.04      0.05        24
+
+              accuracy                           0.99      7634
+             macro avg       0.52      0.52      0.52      7634
+          weighted avg       0.99      0.99      0.99      7634
+
+
+CallToAction-Donations
+                        precision    recall  f1-score   support
+
+         Other Classes       0.99      0.99      0.99      7556
+CallToAction-Donations       0.23      0.36      0.28        78
+
+              accuracy                           0.98      7634
+             macro avg       0.61      0.67      0.63      7634
+          weighted avg       0.99      0.98      0.98      7634
+
+
+CallToAction-MovePeople
+                         precision    recall  f1-score   support
+
+          Other Classes       0.99      1.00      0.99      7526
+CallToAction-MovePeople       0.00      0.00      0.00       108
+
+               accuracy                           0.99      7634
+              macro avg       0.49      0.50      0.50      7634
+           weighted avg       0.97      0.99      0.98      7634
+
+
+Report-FirstPartyObservation
+                              precision    recall  f1-score   support
+
+               Other Classes       0.94      0.82      0.87      7150
+Report-FirstPartyObservation       0.07      0.20      0.10       484
+
+                    accuracy                           0.78      7634
+                   macro avg       0.50      0.51      0.49      7634
+                weighted avg       0.88      0.78      0.82      7634
+
+
+Report-ThirdPartyObservation
+                              precision    recall  f1-score   support
+
+               Other Classes       0.97      0.70      0.81      7317
+Report-ThirdPartyObservation       0.06      0.42      0.10       317
+
+                    accuracy                           0.69      7634
+                   macro avg       0.51      0.56      0.46      7634
+                weighted avg       0.93      0.69      0.78      7634
+
+
+Report-Weather
+                precision    recall  f1-score   support
+
+ Other Classes       0.97      0.98      0.97      7334
+Report-Weather       0.23      0.16      0.19       300
+
+      accuracy                           0.95      7634
+     macro avg       0.60      0.57      0.58      7634
+  weighted avg       0.94      0.95      0.94      7634
+
+
+Report-EmergingThreats
+                        precision    recall  f1-score   support
+
+         Other Classes       0.94      0.93      0.94      7168
+Report-EmergingThreats       0.13      0.16      0.15       466
+
+              accuracy                           0.88      7634
+             macro avg       0.54      0.55      0.54      7634
+          weighted avg       0.90      0.88      0.89      7634
+
+
+Report-NewSubEvent
+                    precision    recall  f1-score   support
+
+     Other Classes       0.98      0.99      0.98      7492
+Report-NewSubEvent       0.06      0.05      0.06       142
+
+          accuracy                           0.97      7634
+         macro avg       0.52      0.52      0.52      7634
+      weighted avg       0.97      0.97      0.97      7634
+
+
+Report-MultimediaShare
+                        precision    recall  f1-score   support
+
+         Other Classes       0.83      0.87      0.85      6034
+Report-MultimediaShare       0.41      0.34      0.37      1600
+
+              accuracy                           0.76      7634
+             macro avg       0.62      0.61      0.61      7634
+          weighted avg       0.74      0.76      0.75      7634
+
+
+Report-ServiceAvailable
+                         precision    recall  f1-score   support
+
+          Other Classes       0.98      0.95      0.96      7484
+Report-ServiceAvailable       0.06      0.17      0.09       150
+
+               accuracy                           0.93      7634
+              macro avg       0.52      0.56      0.53      7634
+           weighted avg       0.96      0.93      0.95      7634
+
+
+Report-Factoid
+                precision    recall  f1-score   support
+
+ Other Classes       0.88      0.83      0.86      6625
+Report-Factoid       0.20      0.28      0.24      1009
+
+      accuracy                           0.76      7634
+     macro avg       0.54      0.56      0.55      7634
+  weighted avg       0.79      0.76      0.78      7634
+
+
+Report-Official
+                 precision    recall  f1-score   support
+
+  Other Classes       0.97      0.99      0.98      7404
+Report-Official       0.08      0.03      0.05       230
+
+       accuracy                           0.96      7634
+      macro avg       0.53      0.51      0.51      7634
+   weighted avg       0.94      0.96      0.95      7634
+
+
+Report-News
+               precision    recall  f1-score   support
+
+Other Classes       0.86      0.67      0.75      6158
+  Report-News       0.29      0.56      0.38      1476
+
+     accuracy                           0.65      7634
+    macro avg       0.58      0.62      0.57      7634
+ weighted avg       0.75      0.65      0.68      7634
+
+
+Report-CleanUp
+                precision    recall  f1-score   support
+
+ Other Classes       0.99      1.00      0.99      7559
+Report-CleanUp       0.41      0.09      0.15        75
+
+      accuracy                           0.99      7634
+     macro avg       0.70      0.55      0.57      7634
+  weighted avg       0.99      0.99      0.99      7634
+
+
+Report-Hashtags
+                 precision    recall  f1-score   support
+
+  Other Classes       0.48      0.84      0.61      3789
+Report-Hashtags       0.41      0.11      0.17      3845
+
+       accuracy                           0.47      7634
+      macro avg       0.44      0.47      0.39      7634
+   weighted avg       0.44      0.47      0.39      7634
+
+
+Report-OriginalEvent
+                      precision    recall  f1-score   support
+
+       Other Classes       0.89      0.91      0.90      6750
+Report-OriginalEvent       0.15      0.12      0.13       884
+
+            accuracy                           0.82      7634
+           macro avg       0.52      0.51      0.51      7634
+        weighted avg       0.80      0.82      0.81      7634
+
+
+Other-ContextualInformation
+                             precision    recall  f1-score   support
+
+              Other Classes       0.96      0.86      0.91      7364
+Other-ContextualInformation       0.02      0.09      0.04       270
+
+                   accuracy                           0.84      7634
+                  macro avg       0.49      0.48      0.47      7634
+               weighted avg       0.93      0.84      0.88      7634
+
+
+Other-Advice
+               precision    recall  f1-score   support
+
+Other Classes       0.95      0.93      0.94      7183
+ Other-Advice       0.13      0.18      0.15       451
+
+     accuracy                           0.88      7634
+    macro avg       0.54      0.55      0.55      7634
+ weighted avg       0.90      0.88      0.89      7634
+
+
+Other-Sentiment
+                 precision    recall  f1-score   support
+
+  Other Classes       0.84      0.69      0.76      5844
+Other-Sentiment       0.36      0.57      0.44      1790
+
+       accuracy                           0.66      7634
+      macro avg       0.60      0.63      0.60      7634
+   weighted avg       0.73      0.66      0.68      7634
+
+
+Other-Discussion
+                  precision    recall  f1-score   support
+
+   Other Classes       0.92      0.82      0.87      7064
+Other-Discussion       0.05      0.13      0.07       570
+
+        accuracy                           0.77      7634
+       macro avg       0.49      0.47      0.47      7634
+    weighted avg       0.86      0.77      0.81      7634
+
+
+Other-Irrelevant
+                  precision    recall  f1-score   support
+
+   Other Classes       0.68      0.78      0.73      5013
+Other-Irrelevant       0.41      0.30      0.35      2621
+
+        accuracy                           0.61      7634
+       macro avg       0.55      0.54      0.54      7634
+    weighted avg       0.59      0.61      0.60      7634
+
+
+

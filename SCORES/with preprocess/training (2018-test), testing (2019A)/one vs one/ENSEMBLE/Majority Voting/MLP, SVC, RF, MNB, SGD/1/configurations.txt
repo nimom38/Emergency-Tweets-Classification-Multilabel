@@ -1,0 +1,5 @@
+0.031 - original - no shuffle - MLP
+0.03 - isotonic - no shuffle - SVC
+0.025 - isotonic - shuffle - RF
+0.01 - isotonic - no shuffle - MNB
+0.025 - isotonic - no shuffle - SGD

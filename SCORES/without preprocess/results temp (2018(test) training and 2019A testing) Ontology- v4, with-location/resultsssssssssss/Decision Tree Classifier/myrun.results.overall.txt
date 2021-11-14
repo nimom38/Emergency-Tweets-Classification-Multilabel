@@ -1,0 +1,40 @@
+TREC-IS 2019-A Notebook Evaluator v2.0
+Run: myrun (Decision Tree Classifier.run)
+
+--------------------------------------------------
+EVALUATON: Alertng Performance
+Overall performance
+--------------------------------------------------
+> High Importance Alert Worth:	-0.7060518731988472
+> Low Importance Alert Worth:	0.0
+> Accumulated Alert Worth:	-0.3530259365994236
+
+--------------------------------------------------
+EVALUATON: Information Type Categorization
+Overall performance
+--------------------------------------------------
+> Information Type Precision (positive class, multi-type, macro):	0.2280938521493717
+> Information Type Recall (positive class, multi-type, macro):	0.07452424381671538
+> Information Type F1 (positive class, multi-type, macro):	0.09872367531094174
+> Information Type Accuracy (overall, multi-type, macro):	0.8873408435944461
+> High Importance Information Type Precision (positive class, multi-type, macro):	0.08224084819829501
+> High Importance Information Type Recall (positive class, multi-type, macro):	0.014913592187363572
+> High Importance Information Type F1 (positive class, multi-type, macro):	0.024129557486000944
+> High Importance Information Type Accuracy (overall, multi-type, macro):	0.9786263208453411
+> Low Importance Information Type Precision (positive class, multi-type, macro):	0.2741526955023432
+> Low Importance Information Type Recall (positive class, multi-type, macro):	0.09334866012072122
+> Low Importance Information Type F1 (positive class, multi-type, macro):	0.12227971251881779
+> Low Importance Information Type Accuracy (overall, multi-type, macro):	0.8585138507783736
+
+--------------------------------------------------
+EVALUATON: Information Priority Level
+Overall Performance
+--------------------------------------------------
+> Priority Estimation Error (mean squared error, macro): 0.07908344638372632
+> Priority Estimation Error High Importance (mean squared error, macro): 0.19499916979600554
+> Priority Estimation Error Low Importance (mean squared error, macro): 0.04247848109563813
+
+--------------------------------------------------
+LATEX
+--------------------------------------------------
+myrun & -0.7061 & -0.3530 & 0.0140 & 0.0974 & 0.8437 & 0.1950 & 0.0791 \\

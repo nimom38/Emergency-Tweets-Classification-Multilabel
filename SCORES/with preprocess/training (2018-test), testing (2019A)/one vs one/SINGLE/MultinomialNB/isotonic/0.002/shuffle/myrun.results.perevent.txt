@@ -1,0 +1,92 @@
+TREC-IS 2019-A Notebook Evaluator v2.0
+Run: myrun (MultinomialNB_shuffle.run)
+
+--------------------------------------------------
+EVALUATON: Information Type Categorization (Multi-type)
+Per Event Performance
+--------------------------------------------------
+floodChoco2019
+  Information Type Precision (positive class, multi-type, macro): 0.04620919720268584
+  Information Type Recall (positive class, multi-type, macro): 0.23106060606060605
+  Information Type F1 (positive class, multi-type, macro): 0.05299558241190041
+  Information Type Accuracy (overall, multi-type, macro): 0.5360968294772922
+  High Importance Information Type Precision (positive class, multi-type, macro): 0.00228310502283105
+  High Importance Information Type Recall (positive class, multi-type, macro): 0.2222222222222222
+  High Importance Information Type F1 (positive class, multi-type, macro): 0.004478114478114478
+  High Importance Information Type Accuracy (overall, multi-type, macro): 0.6246786632390745
+  Low Importance Information Type Precision (positive class, multi-type, macro): 0.0608512279293041
+  Low Importance Information Type Recall (positive class, multi-type, macro): 0.23400673400673405
+  Low Importance Information Type F1 (positive class, multi-type, macro): 0.06916807172316237
+  Low Importance Information Type Accuracy (overall, multi-type, macro): 0.5065695515566981
+
+earthquakeCalifornia2014
+  Information Type Precision (positive class, multi-type, macro): 0.13071412948381456
+  Information Type Recall (positive class, multi-type, macro): 0.3809644997100701
+  Information Type F1 (positive class, multi-type, macro): 0.12033080218911625
+  Information Type Accuracy (overall, multi-type, macro): 0.5157480314960629
+  High Importance Information Type Precision (positive class, multi-type, macro): 0.01875
+  High Importance Information Type Recall (positive class, multi-type, macro): 0.26666666666666666
+  High Importance Information Type F1 (positive class, multi-type, macro): 0.034270414993306554
+  High Importance Information Type Accuracy (overall, multi-type, macro): 0.6614173228346457
+  Low Importance Information Type Precision (positive class, multi-type, macro): 0.1680355059784194
+  Low Importance Information Type Recall (positive class, multi-type, macro): 0.41906377739120476
+  Low Importance Information Type F1 (positive class, multi-type, macro): 0.14901759792105282
+  Low Importance Information Type Accuracy (overall, multi-type, macro): 0.46719160104986884
+
+earthquakeBohol2013
+  Information Type Precision (positive class, multi-type, macro): 0.10440319646040498
+  Information Type Recall (positive class, multi-type, macro): 0.4763716657367487
+  Information Type F1 (positive class, multi-type, macro): 0.14723498968199042
+  Information Type Accuracy (overall, multi-type, macro): 0.5008077544426495
+  High Importance Information Type Precision (positive class, multi-type, macro): 0.004117063492063492
+  High Importance Information Type Recall (positive class, multi-type, macro): 0.16666666666666666
+  High Importance Information Type F1 (positive class, multi-type, macro): 0.007985013464465519
+  High Importance Information Type Accuracy (overall, multi-type, macro): 0.6534733441033926
+  Low Importance Information Type Precision (positive class, multi-type, macro): 0.13783190744985216
+  Low Importance Information Type Recall (positive class, multi-type, macro): 0.5796066654267761
+  Low Importance Information Type F1 (positive class, multi-type, macro): 0.19365164842116536
+  Low Importance Information Type Accuracy (overall, multi-type, macro): 0.449919224555735
+
+hurricaneFlorence2018
+  Information Type Precision (positive class, multi-type, macro): 0.08711224091338095
+  Information Type Recall (positive class, multi-type, macro): 0.44117863483735936
+  Information Type F1 (positive class, multi-type, macro): 0.1314555701108674
+  Information Type Accuracy (overall, multi-type, macro): 0.562841803388022
+  High Importance Information Type Precision (positive class, multi-type, macro): 0.02248543482787907
+  High Importance Information Type Recall (positive class, multi-type, macro): 0.2789108069670887
+  High Importance Information Type F1 (positive class, multi-type, macro): 0.04048039841055734
+  High Importance Information Type Accuracy (overall, multi-type, macro): 0.6893424036281179
+  Low Importance Information Type Precision (positive class, multi-type, macro): 0.10865450960854825
+  Low Importance Information Type Recall (positive class, multi-type, macro): 0.4952679107941162
+  Low Importance Information Type F1 (positive class, multi-type, macro): 0.16178062734430404
+  Low Importance Information Type Accuracy (overall, multi-type, macro): 0.5206749366413232
+
+shootingDallas2017
+  Information Type Precision (positive class, multi-type, macro): 0.06881432773591283
+  Information Type Recall (positive class, multi-type, macro): 0.4804273133355916
+  Information Type F1 (positive class, multi-type, macro): 0.10548541212511729
+  Information Type Accuracy (overall, multi-type, macro): 0.4574375000000001
+  High Importance Information Type Precision (positive class, multi-type, macro): 0.001696604663365949
+  High Importance Information Type Recall (positive class, multi-type, macro): 0.1851851851851852
+  High Importance Information Type F1 (positive class, multi-type, macro): 0.00335455004164311
+  High Importance Information Type Accuracy (overall, multi-type, macro): 0.612
+  Low Importance Information Type Precision (positive class, multi-type, macro): 0.09118690209342846
+  Low Importance Information Type Recall (positive class, multi-type, macro): 0.5788413560523937
+  Low Importance Information Type F1 (positive class, multi-type, macro): 0.13952903281960868
+  Low Importance Information Type Accuracy (overall, multi-type, macro): 0.4059166666666666
+
+fireYMM2016
+  Information Type Precision (positive class, multi-type, macro): 0.12684997171162501
+  Information Type Recall (positive class, multi-type, macro): 0.6391152209465291
+  Information Type F1 (positive class, multi-type, macro): 0.16814366528480254
+  Information Type Accuracy (overall, multi-type, macro): 0.46764583333333337
+  High Importance Information Type Precision (positive class, multi-type, macro): 0.03594470022678157
+  High Importance Information Type Recall (positive class, multi-type, macro): 0.4816351849981138
+  High Importance Information Type F1 (positive class, multi-type, macro): 0.06441600410510785
+  High Importance Information Type Accuracy (overall, multi-type, macro): 0.5943333333333333
+  Low Importance Information Type Precision (positive class, multi-type, macro): 0.1571517288732395
+  Low Importance Information Type Recall (positive class, multi-type, macro): 0.6916085662626676
+  Low Importance Information Type F1 (positive class, multi-type, macro): 0.2027195523447008
+  Low Importance Information Type Accuracy (overall, multi-type, macro): 0.42541666666666667
+
+

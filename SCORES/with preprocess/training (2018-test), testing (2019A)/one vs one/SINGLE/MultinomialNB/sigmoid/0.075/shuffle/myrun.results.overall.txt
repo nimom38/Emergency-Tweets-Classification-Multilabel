@@ -1,0 +1,40 @@
+TREC-IS 2019-A Notebook Evaluator v2.0
+Run: myrun (MultinomialNB_shuffle.run)
+
+--------------------------------------------------
+EVALUATON: Alertng Performance
+Overall performance
+--------------------------------------------------
+> High Importance Alert Worth:	-0.7060518731988472
+> Low Importance Alert Worth:	0.0
+> Accumulated Alert Worth:	-0.3530259365994236
+
+--------------------------------------------------
+EVALUATON: Information Type Categorization
+Overall performance
+--------------------------------------------------
+> Information Type Precision (positive class, multi-type, macro):	0.19015617827584017
+> Information Type Recall (positive class, multi-type, macro):	0.16502540511957908
+> Information Type F1 (positive class, multi-type, macro):	0.0868487649526566
+> Information Type Accuracy (overall, multi-type, macro):	0.8135861496812508
+> High Importance Information Type Precision (positive class, multi-type, macro):	0.0
+> High Importance Information Type Recall (positive class, multi-type, macro):	0.0
+> High Importance Information Type F1 (positive class, multi-type, macro):	0.0
+> High Importance Information Type Accuracy (overall, multi-type, macro):	0.9805038861234826
+> Low Importance Information Type Precision (positive class, multi-type, macro):	0.2535415710344535
+> Low Importance Information Type Recall (positive class, multi-type, macro):	0.22003387349277212
+> Low Importance Information Type F1 (positive class, multi-type, macro):	0.1157983532702088
+> Low Importance Information Type Accuracy (overall, multi-type, macro):	0.7579469042005065
+
+--------------------------------------------------
+EVALUATON: Information Priority Level
+Overall Performance
+--------------------------------------------------
+> Priority Estimation Error (mean squared error, macro): 0.07983230332873743
+> Priority Estimation Error High Importance (mean squared error, macro): 0.19619195873249554
+> Priority Estimation Error Low Importance (mean squared error, macro): 0.0410457515274847
+
+--------------------------------------------------
+LATEX
+--------------------------------------------------
+myrun & -0.7061 & -0.3530 & 0.0000 & 0.1070 & 0.7932 & 0.1962 & 0.0798 \\

@@ -1,0 +1,36 @@
+CallToAction-Donations, CallToAction-Donations, 
+CallToAction-MovePeople, CallToAction-MovePeople
+CallToAction-Volunteer, CallToAction-Volunteer
+Other-Advice, Other-Advice
+Other-ContextualInformation, Other-ContextualInformation
+Other-Discussion, Other-Discussion
+Other-Irrelevant, Other-Irrelevant
+Other-Sentiment, Other-Sentiment
+Report-CleanUp, Report-CleanUp
+Report-EmergingThreats, Report-EmergingThreats
+Report-Factoid, Report-Factoid
+Report-FirstPartyObservation, Report-FirstPartyObservation
+Report-Hashtags, Report-Hashtags
+Report-Location, Report-Location
+Report-MultimediaShare, Report-MultimediaShare
+Report-News, Report-News
+Report-NewSubEvent, Report-NewSubEvent
+Report-Official, Report-Official
+Report-OriginalEvent, Report-OriginalEvent
+Report-ServiceAvailable, Report-ServiceAvailable
+Report-ThirdPartyObservation, Report-ThirdPartyObservation
+Report-Weather, Report-Weather
+Request-GoodsServices, Request-GoodsServices
+Request-InformationWanted, Request-InformationWanted
+Request-SearchAndRescue, Request-SearchAndRescue
+
+
+
+
+------------------------------------------------- 2018
+Report-SignificantEventChange	=>	Report-NewSubEvent
+Other-PastNews	=>	Report-News
+Other-ContinuingNews	=>	Report-News
+Other-Unknown	=>	Other-Irrelevant
+Other-KnownAlready  =>  Report-OriginalEvent
+

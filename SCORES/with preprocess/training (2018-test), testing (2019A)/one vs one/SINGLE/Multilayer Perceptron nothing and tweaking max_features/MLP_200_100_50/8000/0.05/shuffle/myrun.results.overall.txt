@@ -1,0 +1,40 @@
+TREC-IS 2019-A Notebook Evaluator v2.0
+Run: myrun (MLP_200_100_50_shuffle.run)
+
+--------------------------------------------------
+EVALUATON: Alertng Performance
+Overall performance
+--------------------------------------------------
+> High Importance Alert Worth:	-0.7060518731988472
+> Low Importance Alert Worth:	0.0
+> Accumulated Alert Worth:	-0.3530259365994236
+
+--------------------------------------------------
+EVALUATON: Information Type Categorization
+Overall performance
+--------------------------------------------------
+> Information Type Precision (positive class, multi-type, macro):	0.1783572209641592
+> Information Type Recall (positive class, multi-type, macro):	0.162968961670186
+> Information Type F1 (positive class, multi-type, macro):	0.1388056621971527
+> Information Type Accuracy (overall, multi-type, macro):	0.8579327133001483
+> High Importance Information Type Precision (positive class, multi-type, macro):	0.09087091882684345
+> High Importance Information Type Recall (positive class, multi-type, macro):	0.08098399398902173
+> High Importance Information Type F1 (positive class, multi-type, macro):	0.08333340000209899
+> High Importance Information Type Accuracy (overall, multi-type, macro):	0.9710723954239805
+> Low Importance Information Type Precision (positive class, multi-type, macro):	0.20751932167659784
+> Low Importance Information Type Recall (positive class, multi-type, macro):	0.1902972842305741
+> Low Importance Information Type F1 (positive class, multi-type, macro):	0.1572964162621706
+> Low Importance Information Type Accuracy (overall, multi-type, macro):	0.8202194859255376
+
+--------------------------------------------------
+EVALUATON: Information Priority Level
+Overall Performance
+--------------------------------------------------
+> Priority Estimation Error (mean squared error, macro): 0.0783969475473129
+> Priority Estimation Error High Importance (mean squared error, macro): 0.19083250312933886
+> Priority Estimation Error Low Importance (mean squared error, macro): 0.04091842901997088
+
+--------------------------------------------------
+LATEX
+--------------------------------------------------
+myrun & -0.7061 & -0.3530 & 0.0785 & 0.1353 & 0.8192 & 0.1908 & 0.0784 \\

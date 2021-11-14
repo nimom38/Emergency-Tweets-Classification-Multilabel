@@ -1,0 +1,2 @@
+original - no shuffle - MLP - 0.8
+isotonic - no shuffle - SVC - 0.2

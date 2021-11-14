@@ -1,0 +1,95 @@
+########For Multinomial Naive Bayes:########
+
+Ref.: https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html
+
+
+from sklearn.naive_bayes import MultinomialNB
+
+classifier = Pipeline([
+      ('count_vectorizer', CountVectorizer(ngram_range=(1, 3))),
+      ('tfidf', TfidfTransformer(norm='l2', use_idf=True, smooth_idf=True, sublinear_tf=False)),
+      ('clf', OneVsRestClassifier(MultinomialNB()))])
+
+
+
+
+######## For Linear SVC (SVM) ##########
+
+Ref.: https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html
+
+from sklearn.svm import LinearSVC
+from sklearn.svm import SVC
+
+classifier = Pipeline([
+     ('count_vectorizer', CountVectorizer(ngram_range=(1, 3))),
+     ('tfidf', TfidfTransformer(norm='l2', use_idf=True, smooth_idf=True, sublinear_tf=False)),
+     ('clf', OneVsRestClassifier(LinearSVC(C=10.0, class_weight=None, dual=True, fit_intercept=True,
+      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+      multi_class='ovr', penalty='l2', random_state=0, tol=0.0001,
+      verbose=0)))])
+
+
+
+
+
+########For SGD Classifier:########
+
+Ref.: https://scikit-learn.org/stable/modules/sgd.html
+
+
+from sklearn.linear_model import SGDClassifier
+
+classifier = Pipeline([
+     ('count_vectorizer', CountVectorizer(ngram_range=(1, 3))),
+	 ('tfidf', TfidfTransformer(norm='l2', use_idf=True, smooth_idf=True, sublinear_tf=False)),
+     ('clf', OneVsRestClassifier(SGDClassifier(loss="hinge", penalty="l2", max_iter=5)))])
+
+
+
+
+
+########For Decision Tree Classifier:########
+
+Ref.: https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+
+
+from sklearn.tree import DecisionTreeClassifier
+
+classifier = Pipeline([
+     ('count_vectorizer', CountVectorizer(ngram_range=(1, 3))),
+	 ('tfidf', TfidfTransformer(norm='l2', use_idf=True, smooth_idf=True, sublinear_tf=False)),
+     ('clf', OneVsRestClassifier(DecisionTreeClassifier(random_state=0)))])
+
+
+
+
+
+
+########For Random Forest Classifier:########
+
+Ref.: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+
+from sklearn.ensemble import RandomForestClassifier
+
+classifier = Pipeline([
+     ('count_vectorizer', CountVectorizer(ngram_range=(1, 3))),
+	 ('tfidf', TfidfTransformer(norm='l2', use_idf=True, smooth_idf=True, sublinear_tf=False)),
+     ('clf', OneVsRestClassifier(RandomForestClassifier(max_depth=2, random_state=0)))])
+
+
+
+
+
+########For Multilayer Perceptron Classifier:########
+
+https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html
+
+from sklearn.neural_network import MLPClassifier
+
+classifier = Pipeline([
+     ('count_vectorizer', CountVectorizer(ngram_range=(1, 3))),
+	 ('tfidf', TfidfTransformer(norm='l2', use_idf=True, smooth_idf=True, sublinear_tf=False)),
+     ('clf', OneVsRestClassifier(MLPClassifier(hidden_layer_sizes=(200,), random_state=1, max_iter=60, warm_start=True)))])
+	 
+	 

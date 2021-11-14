@@ -1,0 +1,40 @@
+TREC-IS 2019-A Notebook Evaluator v2.0
+Run: myrun (LinearSVC_no_shuffle.run)
+
+--------------------------------------------------
+EVALUATON: Alertng Performance
+Overall performance
+--------------------------------------------------
+> High Importance Alert Worth:	-0.7060518731988472
+> Low Importance Alert Worth:	0.0
+> Accumulated Alert Worth:	-0.3530259365994236
+
+--------------------------------------------------
+EVALUATON: Information Type Categorization
+Overall performance
+--------------------------------------------------
+> Information Type Precision (positive class, multi-type, macro):	0.12170123002053368
+> Information Type Recall (positive class, multi-type, macro):	0.17262866112293385
+> Information Type F1 (positive class, multi-type, macro):	0.100942127270513
+> Information Type Accuracy (overall, multi-type, macro):	0.8154091345733997
+> High Importance Information Type Precision (positive class, multi-type, macro):	0.020114942528735632
+> High Importance Information Type Recall (positive class, multi-type, macro):	0.007777777777777778
+> High Importance Information Type F1 (positive class, multi-type, macro):	0.011217948717948718
+> High Importance Information Type Accuracy (overall, multi-type, macro):	0.9793904462492358
+> Low Importance Information Type Precision (positive class, multi-type, macro):	0.15556332585113303
+> Low Importance Information Type Recall (positive class, multi-type, macro):	0.22757895557131919
+> Low Importance Information Type F1 (positive class, multi-type, macro):	0.13085018678803442
+> Low Importance Information Type Accuracy (overall, multi-type, macro):	0.760748697348121
+
+--------------------------------------------------
+EVALUATON: Information Priority Level
+Overall Performance
+--------------------------------------------------
+> Priority Estimation Error (mean squared error, macro): 0.07870319605706062
+> Priority Estimation Error High Importance (mean squared error, macro): 0.19175519062834348
+> Priority Estimation Error Low Importance (mean squared error, macro): 0.04101919786663299
+
+--------------------------------------------------
+LATEX
+--------------------------------------------------
+myrun & -0.7061 & -0.3530 & 0.0050 & 0.1377 & 0.7998 & 0.1918 & 0.0787 \\

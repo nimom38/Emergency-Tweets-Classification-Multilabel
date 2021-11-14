@@ -1,0 +1,5 @@
+original - no shuffle - MLP - 0.2
+isotonic - no shuffle - SVC - 0.2
+isotonic - shuffle - RF - 0.2
+isotonic - no shuffle - MNB - 0.2
+isotonic - no shuffle - SGD - 0.2
