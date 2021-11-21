@@ -1,4 +1,4 @@
-# Emergency-Tweets-Classification-Multilabel-
+# Multilabel Classification of Emergency Tweets using Machine Learning and Neural Networks
 A system to predict the category of tweets during times of crisis (like - flood, cyclone, earthquake, wildfires, pandemic etc.) Multilabel classification was done. Here, we have used 24 categories. They are-
 
 1. Request for Goods and Services 
